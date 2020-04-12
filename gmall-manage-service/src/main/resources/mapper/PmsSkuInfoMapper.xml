@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.gmall.manage.mapper.PmsSkuInfoMapper">   <!-- 命名空间 -->
+
+    <resultMap id="spuSaleAttrListMap" type="com.gmall.bean.PmsSkuInfo" autoMapping="true">
+        <result column="sku_id" property="id"  ></result>
+        <collection property="skuSaleAttrValueList" ofType="com.gmall.bean.PmsSkuSaleAttrValue" autoMapping="true">
+            <result column="ssav_id" property="id" ></result>
+        </collection>
+
+    </resultMap>
+    <!-- 对象映射，可以不写 -->
+    <!-- 查询功能，resultType 设置返回值类型 -->
+    <select id="selSkuSaleValueListBySpu" resultMap="spuSaleAttrListMap">  <!-- 书写 SQL 语句 -->
+        select si.id as sku_id,ssav.sale_attr_value_id ,ssav.id as ssav_id from pms_sku_info si
+        RIGHT JOIN pms_sku_sale_attr_value ssav
+        on si.id=ssav.sku_id
+        where si.product_id=#{spuId}
+
+    </select>
+
+
+</mapper>

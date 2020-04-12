@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.gmall.manage.mapper.PmsBaseAttrInfoMapper">   <!-- 命名空间 -->
+
+    <resultMap id="selectAttrListMap" type="com.gmall.bean.PmsBaseAttrInfo" autoMapping="true">
+        <result column="ai_id" property="id"></result>
+        <collection property="attrValueList" ofType="com.gmall.bean.PmsBaseAttrValue" autoMapping="true">
+            <result column="av_id" property="id"></result>
+        </collection>
+    </resultMap>
+    <!-- 对象映射，可以不写 -->
+    <!-- 查询功能，resultType 设置返回值类型 -->
+    <select id="selectAttrList" resultMap="selectAttrListMap">  <!-- 书写 SQL 语句 -->
+        select ai.*,av.*,ai.id as ai_id,av.id as av_id
+        from pms_base_attr_info ai,pms_base_attr_value av
+        where ai.id=av.attr_id
+        and av.id in (${attrValueId})
+    </select>
+</mapper>

@@ -1,0 +1,22 @@
+gmall-user-service端口号为8070
+gmall-user-web端口号为8080
+
+gmall-manage-server  端口号  8071
+gmall-manage-web    端口号为 8081
+
+gmall-item-web      端口号为  8082
+
+gmall-search-server  端口号为   8073
+gmall-search-web     端口号为  8083
+
+gmall-cart-service    端口号为  8074
+gamll-cart-web        端口号为  8084
+gmall-cart-service   dubbo服务端口号为20882
+
+gmall-passport-web    端口号为  8085
+使用gmall-user-service   作为服务端    dubbo   20883
+
+gmall-order-web     端口号为   8086
+gmall-order-service 端口号为   8076    dubbo    20884
+
+gmall-payment       端口号为    8087    dubbo   20885

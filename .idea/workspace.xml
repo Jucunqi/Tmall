@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e53aac63-7566-42bc-a3c0-6bd76a2aecc3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java\maven\myrepository" />
+        <option name="mavenHome" value="D:/Java/maven/soft1.8/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="D:\Java\maven\soft1.8\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z4LUaFJ9iaZ1LkvXqwT2qSHnkn" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gmall" />
+      <recent name="com.gmall.search" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gmall.cart.config" />
+      <recent name="com.gmall.manage.config" />
+      <recent name="com.gmall.manage.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WorlkSpacse\workSpace_idea\gmall\gmall-api\src\main\java\com\gmall\bean" />
+      <recent name="E:\WorlkSpacse\workSpace_idea\gmall\gmall-payment\src\main\resources\templates" />
+      <recent name="E:\WorlkSpacse\workSpace_idea\gmall\gmall-payment\src\main\resources\static" />
+      <recent name="E:\WorlkSpacse\workSpace_idea\gmall\gmall-order-web\src\main\resources\templates" />
+      <recent name="E:\WorlkSpacse\workSpace_idea\gmall\gmall-order-web\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GmallOrderWebApplication">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmall.payment.testmq.Consumer" />
+      <module name="gmall-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmall.payment.testmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmall.payment.testmq.Provider" />
+      <module name="gmall-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmall.payment.testmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallManageServiceApplicationTests.testSuanfa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gmall-manage-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmall.manage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmall.manage" />
+      <option name="MAIN_CLASS_NAME" value="com.gmall.manage.GmallManageServiceApplicationTests" />
+      <option name="METHOD_NAME" value="testSuanfa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallPaymentApplicationTests.testActiveMq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gmall-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmall.payment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmall.payment" />
+      <option name="MAIN_CLASS_NAME" value="com.gmall.payment.GmallPaymentApplicationTests" />
+      <option name="METHOD_NAME" value="testActiveMq" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallCartServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-cart-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.cart.GmallCartServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallCartWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-cart-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.GmallCartWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallItemWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-item-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.item.GmallItemWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallManageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-manage-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.manage.GmallManageServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallManageWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-manage-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.manage.GmallManageWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallOrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.GmallOrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallOrderWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-order-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.GmallOrderWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallPassportWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-passport-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.GmallPassportWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallPaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gmall-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.GmallPaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallSearchServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-search-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.search.GmallSearchServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallSearchWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-search-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.GmallSearchWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.gmalluser.GmallUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.user.GmallUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallUserWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-user-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gmall.user.GmallUserWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GmallPaymentApplication" />
+        <item itemvalue="JUnit.GmallManageServiceApplicationTests.testSuanfa" />
+        <item itemvalue="JUnit.GmallPaymentApplicationTests.testActiveMq" />
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Provider" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e53aac63-7566-42bc-a3c0-6bd76a2aecc3" name="Default Changelist" comment="" />
+      <created>1584093436104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584093436104</updated>
+      <workItem from="1584093439754" duration="9679000" />
+      <workItem from="1584155026426" duration="1942000" />
+      <workItem from="1584158465779" duration="25522000" />
+      <workItem from="1584248644212" duration="22546000" />
+      <workItem from="1584322092967" duration="25295000" />
+      <workItem from="1584409336086" duration="3410000" />
+      <workItem from="1584443527425" duration="163000" />
+      <workItem from="1584448882674" duration="2766000" />
+      <workItem from="1584495782616" duration="7773000" />
+      <workItem from="1584516400626" duration="6493000" />
+      <workItem from="1584535125052" duration="6663000" />
+      <workItem from="1584586290270" duration="26959000" />
+      <workItem from="1584668081663" duration="8601000" />
+      <workItem from="1584688217765" duration="19490000" />
+      <workItem from="1584762716953" duration="3107000" />
+      <workItem from="1584783147520" duration="3313000" />
+      <workItem from="1584786498805" duration="1265000" />
+      <workItem from="1584787796339" duration="7861000" />
+      <workItem from="1584843450743" duration="8145000" />
+      <workItem from="1584862575339" duration="10260000" />
+      <workItem from="1584927057579" duration="18415000" />
+      <workItem from="1584953014925" duration="4867000" />
+      <workItem from="1584962045406" duration="64000" />
+      <workItem from="1584962288983" duration="9043000" />
+      <workItem from="1585014827034" duration="8325000" />
+      <workItem from="1585037483790" duration="8943000" />
+      <workItem from="1585103027991" duration="6986000" />
+      <workItem from="1585112733807" duration="3248000" />
+      <workItem from="1585126671391" duration="7467000" />
+      <workItem from="1585188512036" duration="5256000" />
+      <workItem from="1585209756879" duration="13633000" />
+      <workItem from="1586152755795" duration="547000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/maven/myrepository/com/github/tobato/fastdfs-client/1.25.2-RELEASE/fastdfs-client-1.25.2-RELEASE.jar!/com/github/tobato/fastdfs/FdfsClientConfig.class</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/controller/SkuController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gmall-cart-web/src/main/java/com/gmall/cart/controller/CartController.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gmall-payment/src/main/java/com/gmall/payment/service/impl/PaymentServiceImpl.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gmall-order-service/src/main/java/com/gmall/order/mq/OrderServiceMqListener.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
