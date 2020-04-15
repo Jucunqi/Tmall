@@ -89,7 +89,7 @@ public class CartServiceImpl implements CartService {
 
     /**
      * 从缓存中查询购物车信息
-     * @param userId  用户id  也是memberId    老师瞎几把写
+     * @param userId  用户id  也是memberId    
      * @return
      */
     @Override
