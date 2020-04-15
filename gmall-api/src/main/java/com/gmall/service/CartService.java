@@ -37,7 +37,7 @@ public interface CartService {
 
     /**
      * 缓存中查询用户购物车信息
-     * @param userId  用户id  也是memberId    老师瞎几把写
+     * @param userId  用户id  也是memberId    
      * @return
      */
     List<OmsCartItem> selAllItemByUserId(String userId);
